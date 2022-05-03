@@ -1,0 +1,356 @@
+/* Gestion des css */
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
+}
+header{
+    background: url(./Images/img-fond1.jpg) no-repeat center/cover;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+/* Gestion du header du site */
+header{
+    height: 90vh;
+    color: white;
+}
+/* Partie principal */
+header #principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 5px 15px; */
+    background: rgba(29, 27, 27, 0.932);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin-top: -45px;
+    padding-top: 2px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin-right: 15px;
+}
+.navbar ul li{
+    margin-left: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+.navbar ul li a:hover{
+    border-bottom: 1px solid rgb(150, 119, 17);
+}
+/* Partie secondaire */
+/* #secondaire{
+    display: flex;
+    justify-content: space-between;
+    margin:90px 20px;
+    align-items: center;
+} */
+.txt-secondaire h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+.bien{
+    color:rgb(221, 169, 25) ;
+}
+.txt-secondaire{
+    margin-top: 40px;
+}
+.txt-secondaire p{
+    font-size: 1rem;
+    color: white;
+}
+.txt-secondaire button{
+    height: 5vh;
+    width: 10vw;
+    margin-top: 5px;
+    border-radius: 6px;
+    color: white;
+    margin: 0 auto;
+    display: block;
+    background:rgb(150, 119, 17);
+}
+.image-secondaire img{
+    height: 20rem;
+    margin-right: 20px;
+}
+.txt-secondaire button:hover{
+    color: white;
+    background: rgba(29, 27, 27, 0.932);
+}
+/* Gestion de la deuxieme section */
+#cou-plats{
+    color:rgb(221, 169, 25) ;
+}
+#special-plats{
+    height: 80vh;
+    background:rgba(29, 27, 27, 0.932);
+}
+#special-plats img{
+    margin: 0 auto;
+    display: block;
+    padding-top: 10px;
+}
+#special-plats h3, p{
+    text-align: center;
+}
+.special1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.special2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.plat1{
+    height: 28vh;
+    width: 25vw;
+    background:white;
+    border-radius: 10px;
+}
+.plat2{
+    height: 28vh;
+    width: 25vw;
+    background:white;
+    border-radius: 10px;
+}
+.plat3{
+    height: 28vh;
+    width: 25vw;
+    background:white;
+    border-radius: 10px;
+}
+.plat4, .plat5, .plat6{
+    height: 28vh;
+    width: 25vw;
+    background:white;
+    border-radius: 10px;
+}
+/* Gestion de la troisieme section */
+#trait-images{
+    height: 30vh;
+    background-color:rgba(29, 27, 27, 0.932) ;
+    margin-top: -30px;
+}
+.trait1{
+    height: 2px;
+    width: 80%;
+    background-color: rgb(221, 169, 25);
+    margin-top: 30px;
+    align-items: center;
+    display: block;
+    margin-left: 120px;
+}
+.contenu-trait{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.trait2{
+    height: 2px;
+    width: 80%;
+    background-color:rgb(221, 169, 25);
+    margin-top: 15pxpx;
+    align-items: center;
+    display: block;
+    margin-left: 120px;
+}
+/* Gestion de la partie menu */
+#menu{
+    height: 170vh;
+    background:rgba(29, 27, 27, 0.932) ;
+}
+#txt_menu{
+    color: white;
+    
+}
+#menu1, #menu2, #menu3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.main1, .main2, .main3{
+    height: 45vh;
+    width: 17vw;
+    background: white;
+}
+.main4, .main5, .main6{
+    height: 45vh;
+    width: 17vw;
+    background: white;
+}
+.main7, .main8, .main9{
+    height: 59vh;
+    width: 17vw;
+    background: white;
+}
+.main1 h3, p{
+    text-align: center;
+}
+#menu h3, p{
+    text-align: center;
+}
+#menu button{
+    display: block;
+    margin:0 auto ;
+    margin-top: 10px;
+    height: 5vh;
+    width: 10vw;
+    background: rgb(221, 169, 25);
+    color: white;
+    border-radius: 15px;
+}
+#menu button:hover{
+    color: white;
+    background: rgba(29, 27, 27, 0.932);
+    letter-spacing: 5px;
+}
+/* Gestion de la partie Travailleurs */
+#travailleurs{
+    height: 60vh;
+    background:rgba(29, 27, 27, 0.932);
+    margin-top: -15px;
+}
+.txt-trav{
+    color: white;
+    margin-top: 15px;
+}
+.travailleurs{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 60px;
+}
+.txt-travailleurs{
+    color:rgb(221, 169, 25) ;
+}
+.travailleurs img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 4px rgb(221, 169, 25);
+}
+.travailleurs img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+/* Gestion des clients du site */
+#clients{
+    height: 65vh;
+    background: rgba(29, 27, 27, 0.932);
+}
+#clients h2{
+    color: white;
+}
+.clients{
+    display: flex;
+    justify-content: space-around;
+}
+.client1, .client2, .client3, .client4{
+    height: 50vh;
+    width: 18vw;
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#clients img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 4px solid rgb(221, 169, 25);
+    margin-top: -5px;
+}
+#clients h3, p{
+    text-align: center;
+    margin-top: 5px;
+}
+#clients button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 5vh;
+    width: 10vw;
+    background: rgb(221, 169, 25);
+    color: white;
+    border-radius: 15px;
+}
+#clients button:hover{
+    letter-spacing: 3px;
+}
+/* Gestion de la page contact */
+#contact-form{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#contact{
+    background-color:rgba(29, 27, 27, 0.932) ;
+}
+#contact h2{
+    color: white;
+}
+.formulaires input{
+    height: 5vh;
+    width: 30vw;
+    margin-bottom: 5px;
+}
+.formulaires textarea{
+    height: 25vh;
+    width: 30vw;
+    resize: none;
+}
+.formulaires .but-form{
+    height: 5vh;
+    width: 15vw;
+    background:rgb(221, 169, 25) ;
+    border-radius: 15px;
+}
+.formulaires {
+    margin-top: 15px;
+}
+.image-form img{
+    border-radius: 15px;
+}
+.txt-form{
+    color:rgb(221, 169, 25) ;
+}
+/* Gestion du pied page  */
+#foot{
+    height: 40vh;
+    /* background: url("./Images/menu-8.jpg") no-repeat center/cover; */
+}
+.pieds{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.ami ul{
+    list-style: none;
+}
+.liens a{
+    text-decoration: none;
+}
+.image-pied h4{
+    text-align: center;
+
+}
+.pieds h4{
+    background:rgb(221, 169, 25) ;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
